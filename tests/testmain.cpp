@@ -91,9 +91,7 @@ int main(int argc, char** argv) {
 					sub1.warn("could not reopen log");
 				}
 			}
-#ifndef WIN32
-			sleep(1);
-#endif
+
 			log4cpp::NDC::pop();
 		}
 	}
